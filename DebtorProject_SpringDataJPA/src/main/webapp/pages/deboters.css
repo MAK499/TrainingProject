@@ -1,0 +1,46 @@
+*{
+  margin: 0%;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4097e9;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(42, 88, 214, 0.534);
+  margin-left: auto;
+  margin-right: auto;
+}
+.styled-table thead tr {
+  background-color: #4097e9;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+#a1
+{
+
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px 10px;
+    color: white;
+    background-color: #4097e9;
+    border-radius: 5px;    
+    float: right;
+    margin: 10px;
+}
+#a1:hover{
+    cursor: pointer;
+    background: #f06515;
+    color: #000;
+
+}
