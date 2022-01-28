@@ -1,0 +1,18 @@
+CREATE TABLE `user2` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `user_type` varchar(45) DEFAULT NULL,
+  `roles` varchar(25) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+---------------------------SAMPLE DATA TO INSERT----------------------------------------
++----+---------+-----------------------+------------+-----------+----------------------+
+| id | name    | email                 | password   | user_type | roles                |
++----+---------+-----------------------+------------+-----------+----------------------+
+|  1 | mustafa | mustafa@something.com | alphabravo | USER      | ROLE_ADMIN,ROLE_USER |
+|  2 | alok    | alok@something.com    | alphabravo | corporate | ROLE_USER            |
++----+---------+-----------------------+------------+-----------+----------------------+
